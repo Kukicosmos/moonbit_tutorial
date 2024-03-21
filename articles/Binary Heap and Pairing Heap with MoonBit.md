@@ -100,7 +100,7 @@ Inserting elements into an empty binary heap is straightforward; just place the 
 
 A widely adopted approach is to first place the new element to be inserted at the end of the array - essentially finding the leftmost available position in the last level of the binary tree and designating it as a leaf node. If the bottom level is already full, a new level is started. The diagram below illustrates inserting the new element 20 into the right child node:
 
-![image]https://github.com/Kukicosmos/moonbit_tutorial/blob/main/image/image_binary/tree_0.png
+![image](https://github.com/Kukicosmos/moonbit_tutorial/blob/main/image/image_binary/tree_0.png)
 
 ```rust
 fn insert[T : Compare](self : BHeap[T], x : T) {
