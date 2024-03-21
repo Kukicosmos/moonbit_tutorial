@@ -10,7 +10,7 @@
 
 The name "heap" is often related to a discontinuous program data storage area contrasting with stacks, but just like stacks, in the realm of data structures, "heap" holds a radically different definition. According to the earliest literature on “heap” from 1964, it is mentioned right at the beginning that heap sort is an improved version of tree sort, so **the logical structure of a heap is a tree**.
 
-![image]https://github.com/Kukicosmos/moonbit_tutorial/blob/main/image/image_binary/heap.png
+![image](https://github.com/Kukicosmos/moonbit_tutorial/blob/main/image/image_binary/heap.png)
 
 https://www.happycoders.eu/algorithms/heapsort/
 
@@ -44,7 +44,7 @@ Here, we are implementing a max heap, where the root element of the heap is the 
 
 Suppose there is an n-level binary heap, where the first n-1 levels are full, and the nodes on the nth level tend to fill from left to right. The diagram below illustrates a binary heap `arr` with 6 elements, which can be stored in an array of length 6. The positions of each node in the corresponding array are marked in the diagram.
 
-![image]https://github.com/Kukicosmos/moonbit_tutorial/blob/main/image/image_binary/arr.png
+![image](https://github.com/Kukicosmos/moonbit_tutorial/blob/main/image/image_binary/arr.png)
 
 The online visualization display page of a binary heap can provide a clearer demonstration: [https://visualgo.net/en/heap?slide=1](https://visualgo.net/en/heap?slide=1)
 
