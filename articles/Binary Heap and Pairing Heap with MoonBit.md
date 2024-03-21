@@ -121,7 +121,7 @@ Suppose the array index corresponding to the new element is stored in the variab
 - Assign `i` to `i.parent()` because this is the new position of the element.
 - Repeat the above process until the parent node at the new position of the element is greater than it or until it reaches the top of the heap.
 
-![image]https://github.com/Kukicosmos/moonbit_tutorial/blob/main/image/image_binary/tree.png
+![image](https://github.com/Kukicosmos/moonbit_tutorial/blob/main/image/image_binary/tree.png)
 
 ```rust
 fn heap_fix[T : Compare](self : BHeap[T], i : Int) {
