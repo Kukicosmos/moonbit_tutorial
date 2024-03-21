@@ -196,7 +196,7 @@ fn heapify[T : Compare](self : BHeap[T], index : Int) {
 }
 ```
 
-With these two basic operations, it becomes quite straightforward to implement generic array sorting and selecting the largest k elements. However, some boundary condition handling, such as resizing when capacity is exhausted, is not explicitly written in the `insert` and `delete`和`delete` functions. The complete code is shared here: [try.moonbitlang.com/#421122d5](https://try.moonbitlang.com/#421122d5).
+With these two basic operations, it becomes quite straightforward to implement generic array sorting and selecting the largest k elements. However, some boundary condition handling, such as resizing when capacity is exhausted, is not explicitly written in the `insert` and `delete` functions. The complete code is shared here: [try.moonbitlang.com/#421122d5](https://try.moonbitlang.com/#421122d5).
 
 In situations with small data sets and frequent element insertions and deletions, binary heaps perform quite well, as mentioned by Poul-Henning Kamp in his article "You’re Doing It Wrong: Think you’ve mastered the art of server performance? Think again."
 
