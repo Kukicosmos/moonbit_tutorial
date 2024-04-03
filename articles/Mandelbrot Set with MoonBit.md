@@ -145,7 +145,7 @@ pub func get_color(d : Float64) -> Int {
 
 Color calculation is now completed.
 
-## **Paint with canvas**
+## **Plot with canvas**
 
 Create a canvas:
 
